@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Gummy Bears",
+    "image": "https://amp.thisisinsider.com/images/5aa01ec12d9b98d9028b4577-960-720.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Gummy Worms",
+    "image": "https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Jelly Beans",
+    "image": "https://images.hellogiggles.com/uploads/2017/04/22042237/GettyImages-184138876.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dum Dums",
+    "image": "https://sep.yimg.com/ay/candy-crate/double-lollies-wrapped-1lb-1.gif"
+  },
+  {
+    "id": 5,
+    "name": "Smarties",
+    "image": "https://sep.yimg.com/ay/candy-crate/smarties-classic-candy-rolls-5lb-5.gif"
+  },
+  {
+    "id": 6,
+    "name": "M&M's",
+    "image": "https://cdn.pixabay.com/photo/2015/04/23/20/35/candy-736688_1280.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Candy Corn",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Candy-Corn.jpg/1200px-Candy-Corn.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Sour Candy Tape",
+    "image": "http://4.bp.blogspot.com/-bKUupThG5-E/VcpihfMY8hI/AAAAAAAAZBA/iRPFT2PD588/s1600/IMG_4381.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Nerds",
+    "image": "https://www.aaglobal.com/images/NERDB_L.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Skittles",
+    "image": "https://media3.s-nbcnews.com/i/newscms/2017_03/1874941/22117-skittles-148p-rs_5740aaa8f44a1f5b0f7c0e6b734ad32a.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Reese's",
+    "image": "http://cdn.nthstatic.net/assets/photos/2017/reeses-top-coweta-wish-list-for-halloween-candy/_articlePhotoFull/trickortreat.jpg?mtime=20171026075159"
+  },
+  {
+    "id": 12,
+    "name": "Butterfinger",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/A1tXi%2BtkybL._SX355_.jpg"
+  }
+]
