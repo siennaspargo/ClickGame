@@ -1,38 +1,38 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import CandyCard from "./components/CandyCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import friends from "./friends.json";
+import candies from "./candies.json";
 import Footer from "./components/footer";
 import Score from "./components/score";
 import Message from "./components/Instructions";
 
 // state
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.candies to the candies json array
   state = {
-    friends,
+    candies,
     yourScore: 0,
     highScore: 0,
-    clickChar: []
+    clickedCandies: []
   };
 
 onClickImg = id => {
-    // Filter this.state.friends for friends with an id not within the clicked character array
-  //   if (this.state.friends.map(id) === -1) {
+    // Filter this.state.candies for candies with an id not within the clicked character array
+  //   if (this.state.candies.map(id) === -1) {
   //     this.countScore();
       
-  //     this.setState({ clickChar: 
+  //     this.setState({ clickedCandies: 
 
   //       // return a new array //
-  //       this.state.clickChar.concat(id) });
+  //       this.state.clickedCandies.concat(id) });
   //   } else {
   //     alert("You already clicked that one!")
   //   this.resetGame();
   // }
   // once i click on an image, i want to push that id of that specific image to the clicked character array
   
-if (this.state.clickChar.includes(id)) {
+if (this.state.clickedCandies.includes(id)) {
   alert("You already clicked that one!")
     this.resetGame();
 
@@ -46,8 +46,8 @@ if (this.state.clickChar.includes(id)) {
   // update the score 
 
 
-  // push to clickChar array
-this.state.clickChar.push(id)
+  // push to clickedCandies array
+this.state.clickedCandies.push(id)
 
   // alert("click")
 
@@ -73,11 +73,11 @@ resetGame = () => {
   this.setState({
       yourScore: 0,
       highScore: this.state.highScore,
-      clickChar: []
+      clickedCandies: []
   });
 };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.candies and render a CandyCard component for each friend object
 render() {
     return (
       <Wrapper>
@@ -94,8 +94,8 @@ render() {
           Don't lick... oops, I mean click the candy more than once and try to reach 12 points.
         </Message>
         
-        {this.state.friends.map(friend => (
-          <FriendCard
+        {this.state.candies.map(friend => (
+          <CandyCard
             onClickImg={this.onClickImg}
             id={friend.id}
             key={friend.id}
